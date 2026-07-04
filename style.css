@@ -142,3 +142,30 @@ gap:20px;
 }
 
 }
+#data-process-lab{
+
+    background:#ffffff;
+
+}
+
+#data-process-lab h2{
+
+    color:#14b8a6;
+    font-weight:700;
+    margin-bottom:25px;
+
+}
+
+#data-process-lab p{
+
+    font-size:1.15rem;
+    line-height:1.9;
+
+}
+
+#data-process-lab .lead{
+
+    font-size:1.4rem;
+    font-weight:500;
+
+}
