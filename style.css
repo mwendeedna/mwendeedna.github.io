@@ -169,3 +169,93 @@ gap:20px;
     font-weight:500;
 
 }
+/* HOW I THINK */
+
+#how-i-think{
+
+background:#f8f9fa;
+
+}
+
+.thinking-item{
+
+background:white;
+
+padding:30px;
+
+border-radius:12px;
+
+margin-bottom:25px;
+
+box-shadow:0 8px 20px rgba(0,0,0,.06);
+
+transition:.3s;
+
+}
+
+.thinking-item:hover{
+
+transform:translateY(-5px);
+
+}
+
+.thinking-item h4{
+
+color:#14b8a6;
+
+margin-bottom:15px;
+
+}
+
+.quote-box{
+
+text-align:center;
+
+padding:60px 30px;
+
+}
+
+.quote-box h3{
+
+font-size:2rem;
+
+font-weight:700;
+
+color:#0f172a;
+
+margin-bottom:20px;
+
+}
+
+.quote-box p{
+
+font-size:1.2rem;
+
+color:#64748b;
+
+}
+/* PRINCIPLES */
+
+.principle-card{
+
+background:white;
+
+padding:35px;
+
+border-radius:15px;
+
+margin-bottom:25px;
+
+box-shadow:0 8px 25px rgba(0,0,0,.06);
+
+height:100%;
+
+}
+
+.principle-card h3{
+
+color:#14b8a6;
+
+margin-bottom:15px;
+
+}
