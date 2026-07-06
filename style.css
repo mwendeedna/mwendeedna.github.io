@@ -181,11 +181,11 @@ background:#f8f9fa;
 
 background:white;
 
-padding:30px;
+padding:24px;
 
 border-radius:12px;
 
-margin-bottom:25px;
+margin-bottom:15px;
 
 box-shadow:0 8px 20px rgba(0,0,0,.06);
 
@@ -258,4 +258,18 @@ color:#14b8a6;
 
 margin-bottom:15px;
 
+}
+/* ---------- Section Spacing ---------- */
+
+#data-process-lab {
+    padding-bottom: 40px;
+}
+
+#how-i-think {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#principles {
+    padding-top: 40px;
 }
