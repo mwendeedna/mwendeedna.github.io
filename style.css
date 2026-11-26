@@ -305,3 +305,26 @@ margin-bottom:15px;
     margin: 12px auto 0;
     border-radius: 3px;
 }
+
+
+/* DATA PROCESS LAB — Editorial Brand Section */
+
+#data-process-lab.bg-light {
+    background-color: #123D43 !important;
+    color: #F8FAFC;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+#data-process-lab h2 {
+    color: #F8FAFC;
+    font-weight: 700;
+}
+
+#data-process-lab .lead {
+    color: #F8FAFC !important;
+}
+
+#data-process-lab p:not(.lead) {
+    color: #D1E5E3;
+}
