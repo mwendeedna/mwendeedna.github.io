@@ -282,3 +282,25 @@ margin-bottom:15px;
 #principles {
     padding-top: 40px;
 }
+
+/* Gold section heading accents */
+
+#data-process-lab h2,
+#how-i-think h2 {
+    display: inline-block;
+    position: relative;
+    padding-bottom: 12px;
+}
+
+#data-process-lab h2::after,
+#how-i-think h2::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 65px;
+    height: 3px;
+    background-color: #C9A227;
+    border-radius: 3px;
+}
