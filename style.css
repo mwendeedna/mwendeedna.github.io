@@ -358,31 +358,127 @@ background:#f8f9fa;
     }
 }
 
+
 /* PRINCIPLES */
 
-.principle-card{
+#principles {
+    background: #F8FAFC;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
 
-background:white;
+#principles h2 {
+    color: #0F172A;
+    font-weight: 700;
+    margin-bottom: 40px !important;
+}
 
-padding:35px;
+.principles-layout {
+    display: grid;
+    grid-template-columns: 0.9fr 1.1fr;
+    gap: 45px;
+    align-items: stretch;
+}
 
-border-radius:15px;
+/* Featured Principle */
 
-margin-bottom:25px;
+.principles-feature {
+    background: #123D43;
+    padding: 42px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100%;
+}
 
-box-shadow:0 8px 25px rgba(0,0,0,.06);
+.principle-icon {
+    color: #E2B93B;
+    font-size: 2.5rem;
+    margin-bottom: 28px;
+}
 
-height:100%;
+.principles-feature h3 {
+    color: #F8FAFC;
+    font-size: 1.7rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.principles-feature p {
+    color: #D1E5E3;
+    font-size: 1.05rem;
+    line-height: 1.8;
+    margin-bottom: 0;
+}
+
+/* Supporting Principles */
+
+.principles-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.principle-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 22px 0;
+    border-bottom: 1px solid #CBD5E1;
+}
+
+.principle-item:first-child {
+    padding-top: 0;
+}
+
+.principle-item:last-child {
+    border-bottom: none;
+}
+
+.principle-item-icon {
+    color: #C9A227;
+    font-size: 1.5rem;
+    min-width: 28px;
+    padding-top: 3px;
+}
+
+.principle-item h3 {
+    color: #123D43;
+    font-size: 1.15rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.principle-item p {
+    color: #475569;
+    line-height: 1.7;
+    margin-bottom: 0;
+}
+
+/* Responsive Layout */
+
+@media (max-width: 768px) {
+
+    .principles-layout {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .principles-feature {
+        padding: 32px;
+        min-height: auto;
+    }
+
+    .principles-feature h3 {
+        font-size: 1.5rem;
+    }
+
+    .principle-item {
+        gap: 15px;
+    }
 
 }
 
-.principle-card h3{
-
-color:#14b8a6;
-
-margin-bottom:15px;
-
-}
 /* ---------- Section Spacing ---------- */
 
 #data-process-lab {
