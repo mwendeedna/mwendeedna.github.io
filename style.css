@@ -287,20 +287,20 @@ margin-bottom:15px;
 
 #data-process-lab h2,
 #how-i-think h2 {
-    display: inline-block;
+    display: block;
     position: relative;
-    padding-bottom: 12px;
+    padding-bottom: 15px;
+    text-align: center;
 }
 
 #data-process-lab h2::after,
 #how-i-think h2::after {
     content: "";
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 65px;
+    display: block;
+    width: 100%;
+    max-width: 280px;
     height: 3px;
     background-color: #C9A227;
+    margin: 12px auto 0;
     border-radius: 3px;
 }
