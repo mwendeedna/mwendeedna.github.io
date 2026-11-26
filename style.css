@@ -339,3 +339,28 @@ margin-bottom:15px;
 .navbar-brand:hover {
     color: #E2B93B !important;
 }
+
+/* Hero Buttons — Gold Treatment */
+
+.hero .btn-primary {
+    background: #C9A227;
+    color: #0F172A;
+    border: 1px solid #C9A227;
+}
+
+.hero .btn-primary:hover {
+    background: #E2B93B;
+    border-color: #E2B93B;
+    color: #0F172A;
+}
+
+.hero .btn-outline-light {
+    color: #C9A227;
+    border-color: #C9A227;
+}
+
+.hero .btn-outline-light:hover {
+    background: #C9A227;
+    color: #0F172A;
+    border-color: #C9A227;
+}
