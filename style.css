@@ -287,9 +287,11 @@ margin-bottom:15px;
 
 #data-process-lab h2,
 #how-i-think h2 {
-    display: block;
+    display: table;
     position: relative;
     padding-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
 }
 
@@ -298,7 +300,6 @@ margin-bottom:15px;
     content: "";
     display: block;
     width: 100%;
-    max-width: 280px;
     height: 3px;
     background-color: #C9A227;
     margin: 12px auto 0;
