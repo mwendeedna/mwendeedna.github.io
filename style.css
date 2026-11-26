@@ -364,3 +364,43 @@ margin-bottom:15px;
     color: #0F172A;
     border-color: #C9A227;
 }
+
+
+/* Navigation Links — Gold Accents */
+
+.navbar .navbar-nav .nav-link {
+    color: #CBD5E1;
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link:focus,
+.navbar .navbar-nav .nav-link.active {
+    color: #C9A227;
+}
+
+/* Gold underline interaction */
+
+.navbar .navbar-nav .nav-link::after {
+    content: "";
+    position: absolute;
+    left: 0.5rem;
+    right: 0.5rem;
+    bottom: 0.2rem;
+    height: 2px;
+    background: #C9A227;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+
+.navbar .navbar-nav .nav-link:hover::after,
+.navbar .navbar-nav .nav-link:focus::after,
+.navbar .navbar-nav .nav-link.active::after {
+    transform: scaleX(1);
+}
+
+.navbar .navbar-nav .nav-link:focus-visible {
+    outline: 2px solid #C9A227;
+    outline-offset: 3px;
+}
