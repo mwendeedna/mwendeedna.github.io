@@ -328,3 +328,14 @@ margin-bottom:15px;
 #data-process-lab p:not(.lead) {
     color: #D1E5E3;
 }
+
+/* Navbar Brand — Gold Accent */
+
+.navbar-brand {
+    color: #C9A227 !important;
+    transition: color 0.3s ease;
+}
+
+.navbar-brand:hover {
+    color: #E2B93B !important;
+}
